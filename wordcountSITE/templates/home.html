@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Word Counter
+    </title>
+</head>
+<body>
+<h1> Place text you want to count: </h1>
+<form action="{% url 'counterURL' %}">
+
+    <textarea cols="40" rows="5" name="fulltext"></textarea>
+    <input type="submit" value="Count!" />
+
+
+</form>
+<form action="{% url 'about' %}">
+<button > About Page </button>
+    </form>
+</body>
+</html>
